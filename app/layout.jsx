@@ -16,8 +16,8 @@ export const metadata = {
   description: "NYAHAHAHA",
 };
 
-// const RootLayout = ({ children }) =>  {
-  export default function RootLayout({ children }) {
+const RootLayout = ({ children }) =>  {
+  // export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={jetbrainsMono.variable}>
@@ -29,4 +29,4 @@ export const metadata = {
   );
 }
 
-// export default RootLayout;
+export default RootLayout;
